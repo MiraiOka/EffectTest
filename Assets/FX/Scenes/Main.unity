@@ -190,6 +190,52 @@ Transform:
   m_Father: {fileID: 1069880763}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &349738296
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4677886511017426, guid: 6f2df1f975c7f48928020461246d0751, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677886511017426, guid: 6f2df1f975c7f48928020461246d0751, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677886511017426, guid: 6f2df1f975c7f48928020461246d0751, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677886511017426, guid: 6f2df1f975c7f48928020461246d0751, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677886511017426, guid: 6f2df1f975c7f48928020461246d0751, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677886511017426, guid: 6f2df1f975c7f48928020461246d0751, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677886511017426, guid: 6f2df1f975c7f48928020461246d0751, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677886511017426, guid: 6f2df1f975c7f48928020461246d0751, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279213071534588, guid: 6f2df1f975c7f48928020461246d0751, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6f2df1f975c7f48928020461246d0751, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &414936954
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,7 +596,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64f63b519eaf436ba4f76cafa103ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 1511398656119666, guid: 0da7da0b01cab4de184919e59719863f, type: 2}
+  bulletFire: {fileID: 1511398656119666, guid: 0da7da0b01cab4de184919e59719863f, type: 2}
+  bulletWater: {fileID: 1230473093117892, guid: 32ea98482c32d4e97b436e55565f7f85,
+    type: 2}
   playerCamera: {fileID: 414936958}
   speed: 20
 --- !u!4 &1421985794
