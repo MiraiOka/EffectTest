@@ -14,7 +14,6 @@ public class RayController : MonoBehaviour {
 			GameObject bullet2 = (GameObject) Instantiate (bullet, playerCamera.transform.position, Quaternion.identity);
 			Ray rayOrigin = playerCamera.ScreenPointToRay (Input.mousePosition);
 			Vector3 direction = rayOrigin.direction;
-
 			bullet2.GetComponent<Rigidbody> ().velocity = direction * speed;
 		}
 

@@ -6,10 +6,17 @@ public class BulletFire : MonoBehaviour {
 	private Vector3 hitPoint;
 	[SerializeField] FireEffectController fireEffectController;
 
-	void OnCollisionEnter()
+	void OnCollisionEnter(Collision other)
 	{
-		Destroy (this.gameObject);
-		hitPoint = this.transform.position;
-		fireEffectController.createFire (hitPoint);
+
+		print (other.gameObject.tag);
+		if (other.gameObject.tag == "Fire") {
+			other.transform.Find("fire1_add").gameObject.transform.localScale += new Vector3 (1, 1, 1);
+			Destroy (this.gameObject);
+		} else {
+			Destroy (this.gameObject);
+			hitPoint = this.transform.position;
+			fireEffectController.createFire (hitPoint);
+		}
 	}
 }
