@@ -111,6 +111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireEffectController: {fileID: 114685963869094488, guid: 79413e94893a74986af25bc4ff2e26de,
     type: 2}
+  seed: {fileID: 1077002268334930, guid: 8711e7d55147848fb8a12d3565933f54, type: 2}
 --- !u!135 &135278128725182770
 SphereCollider:
   m_ObjectHideFlags: 1
